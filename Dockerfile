@@ -11,4 +11,7 @@ RUN set -eux \
   && apt-get clean --yes \ 
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+# Override maintainer label.
+LABEL maintainer="Jasper Dijt"
+
 USER $UID_GID
