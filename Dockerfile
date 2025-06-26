@@ -1,4 +1,4 @@
-ARG BASE_TIKA_VERSION="3.1.0.0"
+ARG BASE_TIKA_VERSION="3.2.0.0"
 
 # See: https://github.com/apache/tika-docker/blob/main/full/Dockerfile
 FROM apache/tika:${BASE_TIKA_VERSION}-full
